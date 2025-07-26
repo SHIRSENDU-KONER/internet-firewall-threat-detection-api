@@ -59,7 +59,7 @@ The objective is to utilize data analysis and machine learning techniques to com
 
 ## 5. Modeling
 - **Model Used**: XGBoost Classifier (multi-class setup)
-- **Reason for Choice**: Handles non-linearities well, robust with categorical + numerical data, requires less preprocessing
+- **Reason for Choice**: Handles non-linearities well, robust with categorical + numerical data, requires less preprocessing, handle skewed data better
 - **Training Details**:
   + Used Optuna for hyperparameter tuning
 ---
@@ -99,7 +99,6 @@ The objective is to utilize data analysis and machine learning techniques to com
 
 ## 11. Future Work
 - Add model explainability (e.g., SHAP values)
-- Improve UI/UX with a simple frontend for input submission
 - Automate retraining pipelines
 - Implement model versioning and rollback support
 - Build a dashboard to summarized security incidents using **streamlit**
