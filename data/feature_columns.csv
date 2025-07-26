@@ -1,0 +1,12 @@
+selected_columns
+high_activity
+packets_ratio
+source_port
+low_activity
+bytes_ratio
+destination_port
+nat_destination_port
+elapsed_time_(sec)
+nat_source_port
+burst_transfer
+bytes_per_sec
